@@ -7,7 +7,7 @@
 .hero {
   overflow: hidden;
   font-family: Roboto, sans-serif;
-  height: 400px;
+  height: 500px;
   background: #1f2937;
 }
 .header {
@@ -58,8 +58,8 @@ ul {
 }
 .button-sign {
   display: inline-block;
-  padding: 15px 25px;
-  font-size: 24px;
+  padding: 15px 40px;
+  font-size: 12px;
   cursor: pointer;
   text-align: center;
   text-decoration: none;
@@ -82,4 +82,30 @@ ul {
   justify-content: center;
   align-items: center;
   margin-right: 120px;
+}
+.random-inf {
+  display: flex;
+  flex-direction: column;
+}
+.random-text {
+  display: flex;
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.placeholders {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.text-under {
+  width: max-content;
+  flex-direction: column;
+  text-align: center;
+  flex: 1;
 }
