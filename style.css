@@ -56,7 +56,8 @@ ul {
   margin-bottom: 10px;
   margin-top: 10px;
 }
-.button-sign {
+.button-sign,
+.button-sign-up {
   display: inline-block;
   padding: 15px 40px;
   font-size: 12px;
@@ -101,11 +102,70 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 20px;
+  gap: 50px;
 }
 .text-under {
-  width: max-content;
   flex-direction: column;
   text-align: center;
-  flex: 1;
+  max-width: 150px;
+}
+.quote-section {
+  height: 400px;
+  margin-top: 100px;
+  background: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.quote {
+  max-height: 200px;
+  max-width: 750px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.quote-text {
+  color: #1f2937;
+  font-size: 36px;
+  font-style: italic;
+}
+.quote-author {
+  text-align: end;
+  font-weight: bolder;
+}
+.sign-section {
+  background-color: white;
+  max-height: 500px;
+  min-height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sign-box {
+  background-color: #3882f6;
+  min-height: 100px;
+  min-width: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  border-radius: 6px;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+}
+.sign-text1 {
+  color: #f9faf8;
+  font-size: 18px;
+}
+.sign-text2 {
+  color: #f9faf8;
+}
+.button-sign-up {
+  border: 2px solid white;
+  padding: 5px 30px;
+  border-radius: 6px;
 }
