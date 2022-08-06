@@ -1,8 +1,15 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
 .body {
   height: 100vh;
   overflow: hidden;
   font-family: Roboto, sans-serif;
   display: flex;
+  margin: 0px;
+  border: 0px;
 }
 .hero {
   overflow: hidden;
@@ -168,4 +175,14 @@ ul {
   border: 2px solid white;
   padding: 5px 30px;
   border-radius: 6px;
+}
+.footer {
+  display: flex;
+  background: #1f2937;
+  min-height: 60px;
+  justify-content: center;
+  align-items: center;
+}
+.copyright-text {
+  color: #f9faf8;
 }
